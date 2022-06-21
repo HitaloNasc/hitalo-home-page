@@ -1,7 +1,7 @@
 import React from 'react';
 import Props from './interfaces';
 // import Button from '../Button';
-import Typography from '../Typography';
+import Typography from '../../atoms/Typography';
 import { Ul, Link } from './styles';
 
 function MenuList({ open }: Props) {
@@ -21,13 +21,13 @@ function MenuList({ open }: Props) {
           </Typography>
         </Link>
       </li>
-      <li>
+      {/* <li>
         <Link href='#background'>
           <Typography size='xmedium' hover={true}>
             Background
           </Typography>
         </Link>
-      </li>
+      </li> */}
       {/* <li>
         <Button width='tiny' padding='mini' color='black' fontWeight='bold'>
           <Typography size='xmedium' color='black'>
