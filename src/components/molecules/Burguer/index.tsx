@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import MenuList from '../../atoms/MenuList';
+import MenuList from '../MenuList';
 import { BurguerContainer } from './styles';
 
 function Burguer() {
